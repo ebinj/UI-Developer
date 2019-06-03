@@ -1,0 +1,86 @@
+html,body{
+    background-image: url('src/assets/544750.jpg');
+    background-size: cover;
+    
+    height: 100%;
+    width: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+
+
+#message {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.button {
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    background: black;
+    border: 1px solid black;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.button:hover {
+    background: white;
+    color: black;
+}
+
+.inner_heading {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: OpenSans-Light;
+    color: #FFC312;
+    border-bottom: 1px solid #FFC312;
+}
+
+table.dataTable thead .sorting_desc {
+    background-color: #FFC312;
+}
+
+table.dataTable thead .sorting {
+    background-color: #FFC312;
+}
+
+table.dataTable thead .sorting_asc {
+    background-color: #FFC312;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(243, 213, 124)
+}
+.dataTables_wrapper
+{
+ background-color: rgb(192, 190, 182) !important;
+}
+
+.bg-light {
+    background-color: #000 !important;
+    padding: 15px;
+}
+
+.list_style
+{
+    background-color: rgb(155, 144, 131);
+    margin-left:15px;
+    margin-right:15px;
+    padding:10px;
+}
+.inner_head{
+    margin-bottom:10px;
+    padding-right: 0px;
+}
+.dataTables_wrapper
+{
+    padding:10px;
+}
